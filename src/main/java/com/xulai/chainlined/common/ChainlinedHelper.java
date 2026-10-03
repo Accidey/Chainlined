@@ -1,4 +1,4 @@
-package com.xulai.chainmailed.common;
+package com.xulai.chainlined.common;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.component.DataComponents;
@@ -10,10 +10,10 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.component.CustomData;
 import org.jetbrains.annotations.Nullable;
 
-public final class ChainMailHelper {
+public final class ChainlinedHelper {
     public static final String REINFORCED_CHAIN_KEY = "reinforcedChain";
 
-    private ChainMailHelper() {
+    private ChainlinedHelper() {
     }
 
     public static boolean hasChainmailed(ItemStack stack) {
@@ -42,6 +42,16 @@ public final class ChainMailHelper {
         CustomData.update(DataComponents.CUSTOM_DATA, target, tag -> tag.remove(REINFORCED_CHAIN_KEY));
         ItemStack chainmail = ItemStack.parseOptional(registries, snapshot);
         return chainmail.isEmpty() ? null : chainmail;
+    }
+
+    @Nullable
+    public static ItemStack copyChainmailed(ItemStack source, HolderLookup.Provider registries) {
+        CustomData data = source.get(DataComponents.CUSTOM_DATA);
+        if (data == null || !data.contains(REINFORCED_CHAIN_KEY)) {
+            return null;
+        }
+        CompoundTag snapshot = data.copyTag().getCompound(REINFORCED_CHAIN_KEY);
+        return ItemStack.parseOptional(registries, snapshot);
     }
 
     public static boolean isChainmailedPiece(ItemStack stack) {

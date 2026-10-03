@@ -1,6 +1,6 @@
-package com.xulai.chainmailed.mixin;
+package com.xulai.chainlined.mixin;
 
-import com.xulai.chainmailed.common.ChainMailHelper;
+import com.xulai.chainlined.common.ChainlinedHelper;
 import java.util.function.Consumer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.LivingEntity;
@@ -21,7 +21,7 @@ public abstract class ItemStackMixin {
         if (holder == null) {
             return;
         }
-        ItemStack replacement = ChainMailHelper.takeChainmailed((ItemStack) (Object) this, level.registryAccess());
+        ItemStack replacement = ChainlinedHelper.takeChainmailed((ItemStack) (Object) this, level.registryAccess());
         if (replacement == null || !(replacement.getItem() instanceof ArmorItem armor)) {
             return;
         }

@@ -1,7 +1,7 @@
-package com.xulai.chainmailed.mixin;
+package com.xulai.chainlined.mixin;
 
-import com.xulai.chainmailed.common.ChainMailHelper;
-import com.xulai.chainmailed.common.api.IReinforcedChain;
+import com.xulai.chainlined.common.ChainlinedHelper;
+import com.xulai.chainlined.common.api.IReinforcedChain;
 import java.util.List;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
@@ -27,6 +27,6 @@ public abstract class ArmorItemMixin extends Item implements IReinforcedChain {
 
     @Override
     public boolean hasChainmailed(ItemStack stack) {
-        return ChainMailHelper.hasChainmailed(stack);
+        return ChainlinedHelper.hasChainmailed(stack);
     }
 }

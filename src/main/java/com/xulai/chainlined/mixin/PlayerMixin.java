@@ -1,8 +1,8 @@
-package com.xulai.chainmailed.mixin;
+package com.xulai.chainlined.mixin;
 
-import com.xulai.chainmailed.ChainMailedConfig;
-import com.xulai.chainmailed.common.ChainMailHelper;
-import com.xulai.chainmailed.sound.ChainMailedSounds;
+import com.xulai.chainlined.ChainlinedConfig;
+import com.xulai.chainlined.common.ChainlinedHelper;
+import com.xulai.chainlined.sound.ChainlinedSounds;
 import java.util.ArrayList;
 import java.util.List;
 import net.minecraft.world.entity.LivingEntity;
@@ -22,10 +22,10 @@ public abstract class PlayerMixin {
         List<LivingEntity> candidates = level.getEntitiesOfClass(entityClass, area);
         List<LivingEntity> sweepTargets = new ArrayList<>(candidates.size());
         for (LivingEntity candidate : candidates) {
-            if (!ChainMailHelper.hasFullChainmailedSet(candidate)) {
+            if (!ChainlinedHelper.hasFullChainmailedSet(candidate)) {
                 sweepTargets.add(candidate);
-            } else if (ChainMailedConfig.soundChainmailedBlock) {
-                candidate.playSound(ChainMailedSounds.CHAINMAIL_BLOCK.get());
+            } else if (ChainlinedConfig.soundChainmailedBlock) {
+                candidate.playSound(ChainlinedSounds.CHAINMAIL_BLOCK.get());
             }
         }
         return sweepTargets;

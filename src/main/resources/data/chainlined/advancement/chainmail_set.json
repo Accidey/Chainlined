@@ -53,7 +53,7 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "translate": "advancements.story.chainmail_set.description"
+      "translate": "advancements.chainlined.chainmail_set.description"
     },
     "frame": "task",
     "hidden": false,
@@ -63,7 +63,7 @@
     },
     "show_toast": true,
     "title": {
-      "translate": "advancements.story.chainmail_set.title"
+      "translate": "advancements.chainlined.chainmail_set.title"
     }
   },
   "requirements": [

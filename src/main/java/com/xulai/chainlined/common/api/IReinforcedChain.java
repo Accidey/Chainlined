@@ -1,4 +1,4 @@
-package com.xulai.chainmailed.common.api;
+package com.xulai.chainlined.common.api;
 
 import net.minecraft.world.item.ItemStack;
 

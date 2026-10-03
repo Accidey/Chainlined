@@ -1,0 +1,30 @@
+{
+  "parent": "chainlined:chainmail_set",
+  "criteria": {
+    "anvil_chainmail": {
+      "trigger": "chainlined:anvil_chainmail"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.chainlined.anvil_chainmail.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "minecraft:anvil",
+      "count": 1
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.chainlined.anvil_chainmail.title"
+    }
+  },
+  "requirements": [
+    [
+      "anvil_chainmail"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,7 +1,9 @@
 {
   "armoritem.chainmailed.has_chainmailed": "Chainmailed",
-  "advancements.story.chainmail_set.title": "Chainmailed!",
-  "advancements.story.chainmail_set.description": "Obtain chainmail armor.",
+  "advancements.chainlined.chainmail_set.title": "Chainmailed!",
+  "advancements.chainlined.chainmail_set.description": "Obtain chainmail armor.",
+  "advancements.chainlined.anvil_chainmail.title": "Lined in Steel",
+  "advancements.chainlined.anvil_chainmail.description": "Line an armor piece with chainmail on an anvil.",
   "sounds.chainmailed.chainmail_block": "Chainmail Block",
   "attribute.impact_resistance": "Impact Resistance",
   "commands.chainmailed.blacklist.added": "Added %s to the chainmail blacklist (saved to the config file, active immediately).",

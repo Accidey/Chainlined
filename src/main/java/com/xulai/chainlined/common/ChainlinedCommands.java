@@ -1,10 +1,10 @@
-package com.xulai.chainmailed.common;
+package com.xulai.chainlined.common;
 
 import com.mojang.brigadier.Command;
 import com.mojang.brigadier.context.CommandContext;
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
-import com.xulai.chainmailed.ChainMailed;
-import com.xulai.chainmailed.ChainMailedConfig;
+import com.xulai.chainlined.Chainlined;
+import com.xulai.chainlined.ChainlinedConfig;
 import net.minecraft.commands.CommandBuildContext;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.Commands;
@@ -18,16 +18,16 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.event.RegisterCommandsEvent;
 
-@EventBusSubscriber(modid = ChainMailed.MODID)
-public final class ChainMailedCommands {
-    private ChainMailedCommands() {
+@EventBusSubscriber(modid = Chainlined.MODID)
+public final class ChainlinedCommands {
+    private ChainlinedCommands() {
     }
 
     @SubscribeEvent
     public static void onRegisterCommands(RegisterCommandsEvent event) {
         CommandBuildContext context = event.getBuildContext();
         event.getDispatcher().register(
-                Commands.literal("chainmailed")
+                Commands.literal("chainlined")
                         .requires(source -> source.hasPermission(2))
                         .then(Commands.literal("blacklist")
                                 .then(Commands.literal("add")
@@ -55,7 +55,7 @@ public final class ChainMailedCommands {
     }
 
     private static int apply(CommandSourceStack source, Item item, boolean add) {
-        boolean changed = add ? ChainMailedConfig.addToBlacklist(item) : ChainMailedConfig.removeFromBlacklist(item);
+        boolean changed = add ? ChainlinedConfig.addToBlacklist(item) : ChainlinedConfig.removeFromBlacklist(item);
         String key;
         if (add) {
             key = changed ? "commands.chainmailed.blacklist.added" : "commands.chainmailed.blacklist.present";

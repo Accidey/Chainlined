@@ -21,7 +21,7 @@ repositories {
 }
 
 base {
-    archivesName = "Chainmailed-${mod_version}-${minecraft_version}-NeoForge"
+    archivesName = "Chainlined-${mod_version}-${minecraft_version}-NeoForge"
 }
 
 jar {
