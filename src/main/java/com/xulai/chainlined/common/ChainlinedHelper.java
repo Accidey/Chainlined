@@ -28,7 +28,8 @@ public final class ChainlinedHelper {
         if (chainmail.isEmpty()) {
             return;
         }
-        CompoundTag snapshot = (CompoundTag) chainmail.save(registries);
+        ItemStack single = chainmail.copyWithCount(1);
+        CompoundTag snapshot = (CompoundTag) single.save(registries);
         CustomData.update(DataComponents.CUSTOM_DATA, target, tag -> tag.put(REINFORCED_CHAIN_KEY, snapshot));
     }
 

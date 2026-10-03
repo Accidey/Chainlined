@@ -19,7 +19,6 @@ import net.minecraft.world.entity.ai.attributes.AttributeInstance;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.RangedAttribute;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.ItemStack;
@@ -129,10 +128,7 @@ public final class ChainlinedEvents {
             return;
         }
 
-        victim.playSound(ChainlinedSounds.CHAINMAIL_BLOCK.get());
-        if (victim instanceof Player player) {
-            player.level().playSound(null, victim, ChainlinedSounds.CHAINMAIL_BLOCK.get(), SoundSource.PLAYERS, 1.5F, 1.0F);
-        }
+        victim.level().playSound(null, victim.getX(), victim.getY(), victim.getZ(), ChainlinedSounds.CHAINMAIL_BLOCK.get(), SoundSource.PLAYERS, 1.5F, 1.0F);
     }
 
     @SubscribeEvent
