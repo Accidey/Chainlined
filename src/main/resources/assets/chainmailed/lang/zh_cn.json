@@ -1,0 +1,12 @@
+{
+  "armoritem.chainmailed.has_chainmailed": "已加锁链内衬",
+  "advancements.story.chainmail_set.title": "锁链内衬！",
+  "advancements.story.chainmail_set.description": "获得锁链盔甲。",
+  "sounds.chainmailed.chainmail_block": "锁链甲格挡",
+  "attribute.impact_resistance": "冲击抗性",
+  "commands.chainmailed.blacklist.added": "已将 %s 加入锁链内衬黑名单（已写入配置文件，立即生效）。",
+  "commands.chainmailed.blacklist.removed": "已将 %s 移出锁链内衬黑名单（已写入配置文件，立即生效）。",
+  "commands.chainmailed.blacklist.present": "%s 已在锁链内衬黑名单中。",
+  "commands.chainmailed.blacklist.absent": "%s 不在锁链内衬黑名单中。",
+  "commands.chainmailed.blacklist.empty": "请把要操作的装备拿在主手，或直接指定物品 ID。"
+}

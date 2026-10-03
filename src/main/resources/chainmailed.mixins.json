@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "com.xulai.chainmailed.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ArmorItemMixin",
+    "ItemStackMixin",
+    "PlayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
