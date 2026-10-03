@@ -15,7 +15,6 @@
 
 - **Chainmail Lining (Anvil)** — Put an armor piece in the left anvil slot and a chainmail piece for the same slot in the right slot, then take out the lined armor. The right-slot chainmail is consumed and a small amount of experience is paid.
 - **Impact Resistance** — Reduces incoming melee, player and generic damage by a fixed amount, always leaving at least 1 point of damage.
-- **Full Set Bonus** — A fully lined set ignores player sweeping attacks.
 - **Lining Inheritance** — When a lined armor piece is used to craft an upgraded armor piece of the same slot on a crafting table, the lining is preserved on the result.
 - **Crafting Recipes** — Craft vanilla chainmail armor from iron nuggets and chains.
 - **New Advancements & Sound** — "Chainmailed!" and "Lined in Steel" advancements, plus a dedicated chainmail block sound.
@@ -60,7 +59,6 @@ This is a port of the original *ChainMailed* mod to the NeoForge platform. We wo
 
 - **锁链内衬（铁砧）** — 在铁砧左槽放入任意护甲、右槽放入同部位的锁链甲，即可取出加衬护甲。右槽锁链甲会被消耗，并支付少量经验。
 - **冲击抗性** — 按固定数值减免近战、玩家与通用伤害，且至少保留 1 点伤害。
-- **全套加成** — 全套加衬护甲无视玩家的横扫攻击。
 - **内衬继承** — 用加衬护甲在工作台合成同部位的升级护甲时，内衬会保留在合成结果上。
 - **合成配方** — 可使用铁粒与锁链合成原版锁链甲。
 - **新进度与音效** — 新增「锁链内衬！」与「钢甲衬链」进度，以及专属的锁链甲格挡音效。

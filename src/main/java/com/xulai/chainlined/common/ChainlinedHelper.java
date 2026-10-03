@@ -3,9 +3,7 @@ package com.xulai.chainlined.common;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.nbt.CompoundTag;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.component.CustomData;
 import org.jetbrains.annotations.Nullable;
@@ -53,21 +51,5 @@ public final class ChainlinedHelper {
         }
         CompoundTag snapshot = data.copyTag().getCompound(REINFORCED_CHAIN_KEY);
         return ItemStack.parseOptional(registries, snapshot);
-    }
-
-    public static boolean isChainmailedPiece(ItemStack stack) {
-        if (!(stack.getItem() instanceof ArmorItem armor)) {
-            return false;
-        }
-        return hasChainmailed(stack) || armor.getMaterial().is(ArmorMaterials.CHAIN);
-    }
-
-    public static boolean hasFullChainmailedSet(LivingEntity entity) {
-        for (ItemStack stack : entity.getArmorSlots()) {
-            if (!isChainmailedPiece(stack)) {
-                return false;
-            }
-        }
-        return true;
     }
 }

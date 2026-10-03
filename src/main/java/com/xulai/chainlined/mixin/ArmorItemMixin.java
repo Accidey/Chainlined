@@ -36,7 +36,6 @@ public abstract class ArmorItemMixin extends Item implements IReinforcedChain {
         }
         if (chainmail || lined) {
             tooltip.add(Component.translatable("armoritem.chainmailed.impact_resistance", formatImpact()).withStyle(ChatFormatting.BLUE));
-            tooltip.add(Component.translatable("armoritem.chainmailed.set_bonus").withStyle(ChatFormatting.GOLD));
         }
     }
 

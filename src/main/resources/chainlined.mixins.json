@@ -5,8 +5,7 @@
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "ArmorItemMixin",
-    "ItemStackMixin",
-    "PlayerMixin"
+    "ItemStackMixin"
   ],
   "injectors": {
     "defaultRequire": 1

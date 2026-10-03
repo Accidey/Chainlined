@@ -30,9 +30,6 @@ This mod is a **port** of the original *ChainMailed* project — created by **As
   - When taking melee attacks, player attacks, or generic damage, it reduces the incoming damage by a fixed amount — but always leaves at least **1 point** of damage, so it never grants complete immunity.
   - Also applies to certain mobs equipped with chainmail, such as skeletons, zombies, and piglins.
 
-- **Full Set Bonus: Sweep Immunity**
-  - When wearing a full set of chainmail or fully lined armor, the wearer is immune to player **sweeping attacks**.
-
 - **Crafting Recipes**
   - Vanilla chainmail armor pieces can now be crafted using **iron nuggets** and **chains**.
 
@@ -100,9 +97,6 @@ This is a **NeoForge port** by **Accidey**. We would like to express our sincere
   - 由锁链甲及加衬护甲提供的新属性。
   - 受到近战攻击、玩家攻击或通用伤害时，将按固定数值减免伤害——但至少保留 **1 点**伤害，因此永远不会完全免伤。
   - 同时适用于部分穿着锁链甲的生物，如骷髅、僵尸与猪灵等。
-
-- **全套加成：横扫免疫**
-  - 当穿戴全套锁链甲或全套加衬护甲时，穿戴者免疫玩家的**横扫攻击**。
 
 - **合成配方**
   - 原版锁链甲部件现在可通过**铁粒**与**锁链**合成获得。
