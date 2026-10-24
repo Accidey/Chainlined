@@ -30,8 +30,8 @@ public final class ChainlinedConfig {
                         "Base armor value per slot",
                         "各部位的基础护甲值，写成「部位:数值」，部位可取 head / chest / legs / feet。",
                         "Base armor value per slot, written as \"slot:value\" with slot being head / chest / legs / feet.",
-                        "锁链甲自身的护甲值直接改用这里的数值；其它护甲加装锁链内衬后，在自身护甲值之上再叠加这里的数值。",
-                        "Chainmail's own armor value is replaced by these numbers; other armor lined with chainmail gains these numbers on top of its own defense.",
+                        "锁链甲自身的护甲值直接改用这里的数值；其它护甲加装锁链内衬后，会在其当前护甲值（含其它模组的修改）之上再叠加这里的数值。",
+                        "Chainmail's own armor value is replaced by these numbers; lined armor gains these numbers on top of its current armor value, including changes made by other mods.",
                         "Default: [head:1, chest:2, legs:2, feet:1] / 默认：[head:1, chest:2, legs:2, feet:1]")
                 .defineListAllowEmpty("armorForSlotChainmailedBasic", List.of("head:1", "chest:2", "legs:2", "feet:1"), ChainlinedConfig::validateSlotEntry);
 

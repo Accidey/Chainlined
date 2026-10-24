@@ -26,6 +26,8 @@ public abstract class ArmorItemMixin extends Item implements IReinforcedChain {
         int bonus = ChainlinedEvents.armorForSlot(armor.getType().getSlot());
         if (armor.getMaterial().is(ArmorMaterials.CHAIN)) {
             tooltip.add(Component.translatable("armoritem.chainmailed.chainmail_hint", String.valueOf(bonus)).withStyle(ChatFormatting.GRAY));
+            tooltip.add(Component.translatable("armoritem.chainmailed.chainmail_hint_slot").withStyle(ChatFormatting.DARK_GRAY));
+            tooltip.add(Component.translatable("armoritem.chainmailed.chainmail_hint_cost").withStyle(ChatFormatting.DARK_GRAY));
         }
         if (hasChainmailed(stack)) {
             tooltip.add(Component.translatable("armoritem.chainmailed.has_chainmailed").withStyle(ChatFormatting.GRAY));
