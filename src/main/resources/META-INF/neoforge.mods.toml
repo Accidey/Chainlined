@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="${mod_authors}"
+description='''
+Give chainmail armor the rework it deserves. Put an armor piece in the left anvil slot and a
+chainmail piece for the same slot in the right, then take the lined armor out: the lined armor
+gains extra defense.
+Crafting an upgraded armor from a lined piece keeps the lining.
+
+给锁链甲一次应得的重做。在铁砧左槽放入任意护甲、右槽放入同部位的锁链甲，即可取出加衬护甲：
+加衬的护甲获得额外防御。
+用加衬护甲在工作台合成升级后的护甲，内衬会一并保留。
+'''
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[${neo_version},)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[mixins]]
+config="${mod_id}.mixins.json"

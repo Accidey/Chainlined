@@ -1,0 +1,12 @@
+{
+  "armoritem.chainmailed.chainmail_hint": "可在铁砧上为同部位的盔甲增加 %s 点护甲值",
+  "armoritem.chainmailed.chainmail_hint_slot": "左侧放盔甲，右侧放锁链盔甲",
+  "armoritem.chainmailed.chainmail_hint_cost": "锁链盔甲会被消耗",
+  "armoritem.chainmailed.has_chainmailed": "已加锁链内衬",
+  "armoritem.chainmailed.extra_armor": "额外护甲值 +%s",
+  "commands.chainmailed.blacklist.added": "已将 %s 加入锁链内衬黑名单（已写入配置文件，立即生效）。",
+  "commands.chainmailed.blacklist.removed": "已将 %s 移出锁链内衬黑名单（已写入配置文件，立即生效）。",
+  "commands.chainmailed.blacklist.present": "%s 已在锁链内衬黑名单中。",
+  "commands.chainmailed.blacklist.absent": "%s 不在锁链内衬黑名单中。",
+  "commands.chainmailed.blacklist.empty": "请把要操作的装备拿在主手，或直接指定物品 ID。"
+}
