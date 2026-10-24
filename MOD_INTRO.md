@@ -26,7 +26,7 @@ This mod is an original creation by **Accidey**.
   - For example, upgrading a lined diamond chestplate to a netherite chestplate keeps the chainmail lining.
 
 - **Crafting Recipes**
-  - Vanilla chainmail armor pieces can now be crafted using **iron nuggets** and **chains**.
+  - Vanilla chainmail armor pieces can now be crafted using **chains** only.
 
 - **New Advancements**
   - **"Chainmailed!"** — obtain chainmail armor.
@@ -82,7 +82,7 @@ This mod is an original creation by **Accidey**.
   - 例如：将加衬的钻石胸甲升级为下界合金胸甲，锁链内衬会一并保留。
 
 - **合成配方**
-  - 原版锁链甲部件现在可通过**铁粒**与**锁链**合成获得。
+  - 原版锁链甲部件现在可通过**锁链**合成获得。
 
 - **新进度**
   - **「锁链内衬！」** —— 获得锁链甲。
