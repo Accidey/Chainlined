@@ -10,7 +10,7 @@
 
 **Chainlined** is a Minecraft **NeoForge** mod for **Minecraft 1.21.1** that delivers a comprehensive rework of vanilla chainmail armor. While preserving the vanilla visual style, it introduces a brand-new **Chainmail Lining** mechanic, along with the all-new **Impact Resistance** attribute, allowing chainmail armor to truly shine in combat.
 
-This mod is a **port** of the original *ChainMailed* project — created by **AstianBk** and **SangreBK** for **Minecraft 1.20.1 (Forge)** — adapted to the **NeoForge** platform by **Accidey**.
+This mod is an original creation by **Accidey**.
 
 ### Core Features
 
@@ -54,9 +54,7 @@ This mod is a **port** of the original *ChainMailed* project — created by **As
 
 ### Credits
 
-**ChainMailed** was originally created by **AstianBk** and **SangreBK**.
-
-This is a **NeoForge port** by **Accidey**. We would like to express our sincere gratitude to the original authors for their outstanding work.
+**Chainlined** was created by **Accidey**.
 
 ### Requirements
 
@@ -78,7 +76,7 @@ This is a **NeoForge port** by **Accidey**. We would like to express our sincere
 
 **Chainlined** 是一个基于 **Minecraft 1.21.1** 的 **NeoForge** 模组，旨在为原版锁链甲带来一次全面的重做。模组在保留原版视觉风格的前提下，引入了全新的**锁链内衬**机制与全新的**冲击抗性**属性，让锁链甲在战斗中真正发挥其应有的作用。
 
-本模组为原版 *ChainMailed* 项目——由 **AstianBk** 与 **SangreBK** 为 **Minecraft 1.20.1（Forge）** 创作——由 **Accidey** 移植适配至 **NeoForge** 平台。
+本模组由 **Accidey** 原创开发。
 
 ### 核心特性
 
@@ -122,9 +120,7 @@ This is a **NeoForge port** by **Accidey**. We would like to express our sincere
 
 ### 致谢
 
-**ChainMailed** 的原作者为 **AstianBk** 与 **SangreBK**。
-
-本项目为 **Accidey** 制作的 **NeoForge 移植版本**。在此，我们衷心感谢原作者所做出的卓越工作。
+**Chainlined** 由 **Accidey** 制作。
 
 ### 运行环境
 

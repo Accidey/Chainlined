@@ -1,6 +1,5 @@
 package com.xulai.chainlined.mixin;
 
-import com.xulai.chainlined.ChainlinedConfig;
 import com.xulai.chainlined.common.ChainlinedEvents;
 import com.xulai.chainlined.common.ChainlinedHelper;
 import com.xulai.chainlined.common.api.IReinforcedChain;
@@ -35,16 +34,8 @@ public abstract class ArmorItemMixin extends Item implements IReinforcedChain {
             tooltip.add(Component.translatable("armoritem.chainmailed.extra_armor", String.valueOf(bonus)).withStyle(ChatFormatting.GRAY));
         }
         if (chainmail || lined) {
-            tooltip.add(Component.translatable("armoritem.chainmailed.impact_resistance", formatImpact()).withStyle(ChatFormatting.BLUE));
+            tooltip.add(Component.translatable("armoritem.chainmailed.impact_resistance").withStyle(ChatFormatting.BLUE));
         }
-    }
-
-    private String formatImpact() {
-        double value = ChainlinedConfig.impactResistanceChainmailedBasic;
-        if (value == Math.floor(value)) {
-            return String.valueOf((int) value);
-        }
-        return String.valueOf(value);
     }
 
     @Override

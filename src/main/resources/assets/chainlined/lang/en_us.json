@@ -2,7 +2,7 @@
   "armoritem.chainmailed.has_chainmailed": "Chainmailed",
   "armoritem.chainmailed.extra_armor": "Extra Armor +%s",
   "armoritem.chainmailed.chainmail_base": "Chainmail: reduces melee damage",
-  "armoritem.chainmailed.impact_resistance": "Impact Resistance +%s: reduces melee, player and generic damage (minimum 1 point)",
+  "armoritem.chainmailed.impact_resistance": "Impact Resistance: reduces melee, player and generic damage (always leaves at least 1 point)",
   "advancements.chainlined.chainmail_set.title": "Chainmailed!",
   "advancements.chainlined.chainmail_set.description": "Obtain chainmail armor.",
   "advancements.chainlined.anvil_chainmail.title": "Lined in Steel",

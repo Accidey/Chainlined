@@ -1,7 +1,7 @@
 # Chainlined
 
-> A vanilla-styled rework of chainmail armor, ported to NeoForge.
-> 一款原版风格、对锁链甲进行全面重做的模组，已移植至 NeoForge。
+> A vanilla-styled rework of chainmail armor for NeoForge.
+> 一款原版风格、对锁链甲进行全面重做的 NeoForge 模组。
 
 ---
 
@@ -21,19 +21,9 @@
 - **Configurable** — Sound, Impact Resistance values, per-slot armor values, the anvil experience cost and the lining blacklist are all configurable.
 - **In-Game Commands** — `/chainlined blacklist add|remove <item>`.
 
-### Original Authors
+### Author
 
-- **AstianBk**
-- **SangreBK**
-
-The original *ChainMailed* project was created by the authors above for **Minecraft 1.20.1 (Forge)**.
-
-### Port Information
-
-- **Ported by:** Accidey
-- **Target:** Minecraft **1.21.1** / **NeoForge**
-
-This is a port of the original *ChainMailed* mod to the NeoForge platform. We would like to express our sincere gratitude to the original authors for their outstanding work.
+- **Accidey**
 
 ### Requirements
 
@@ -65,19 +55,9 @@ This is a port of the original *ChainMailed* mod to the NeoForge platform. We wo
 - **可配置** — 音效、冲击抗性数值、各部位护甲值、铁砧经验费用与内衬黑名单均可配置。
 - **游戏内指令** — `/chainlined blacklist add|remove <物品>`。
 
-### 原作者
+### 作者
 
-- **AstianBk**
-- **SangreBK**
-
-原版 *ChainMailed* 项目由上述作者为 **Minecraft 1.20.1（Forge）** 创作。
-
-### 移植信息
-
-- **移植者：** Accidey
-- **目标平台：** Minecraft **1.21.1** / **NeoForge**
-
-本项目为原版 *ChainMailed* 模组的 NeoForge 移植版本。在此，我们衷心感谢原作者的卓越工作。
+- **Accidey**
 
 ### 运行环境
 
