@@ -2,9 +2,7 @@ package com.xulai.chainlined.common;
 
 import com.xulai.chainlined.Chainlined;
 import com.xulai.chainlined.ChainlinedConfig;
-import com.xulai.chainlined.advancement.ChainlinedTriggers;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.Container;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.EquipmentSlotGroup;
@@ -50,9 +48,6 @@ public final class ChainlinedEvents {
         event.setOutput(output);
         event.setCost(ChainlinedConfig.anvilExperienceCost);
         event.setMaterialCost(1);
-        if (event.getPlayer() instanceof ServerPlayer serverPlayer) {
-            ChainlinedTriggers.ANVIL_CHAINMAIL.get().trigger(serverPlayer);
-        }
     }
 
     @SubscribeEvent

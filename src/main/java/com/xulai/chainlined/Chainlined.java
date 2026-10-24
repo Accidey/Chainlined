@@ -1,7 +1,6 @@
 package com.xulai.chainlined;
 
 import com.mojang.logging.LogUtils;
-import com.xulai.chainlined.advancement.ChainlinedTriggers;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
@@ -14,7 +13,6 @@ public class Chainlined {
     public static final Logger LOGGER = LogUtils.getLogger();
 
     public Chainlined(IEventBus modEventBus, ModContainer modContainer) {
-        ChainlinedTriggers.TRIGGERS.register(modEventBus);
         modContainer.registerConfig(ModConfig.Type.COMMON, ChainlinedConfig.SPEC);
     }
 }

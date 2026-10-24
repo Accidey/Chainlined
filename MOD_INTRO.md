@@ -19,6 +19,7 @@ This mod is an original creation by **Accidey**.
   - The right-slot chainmail is consumed, and a small amount of experience levels is paid (1 by default, configurable).
   - The lined armor gains additional armor points on top of its original defense.
   - Armor pieces with a lining display a **"Chainmailed"** tooltip.
+  - Chainmail pieces carry their own tooltip explaining this anvil interaction.
   - Once an armor piece is lined, it cannot be lined again; the lining is permanent and cannot be manually removed.
 
 - **Lining Inheritance (Crafting Table)**
@@ -27,10 +28,6 @@ This mod is an original creation by **Accidey**.
 
 - **Crafting Recipes**
   - Vanilla chainmail armor pieces can now be crafted using **chains** only.
-
-- **New Advancements**
-  - **"Chainmailed!"** — obtain chainmail armor.
-  - **"Lined in Steel"** — line an armor piece with chainmail on an anvil.
 
 - **Configuration Options**
   - Configure base armor values per slot.
@@ -75,6 +72,7 @@ This mod is an original creation by **Accidey**.
   - 右槽的锁链甲会被消耗，并支付少量经验等级（默认 1 级，可配置）。
   - 加衬后的护甲将在原有防御基础上获得额外护甲值。
   - 已加衬的护甲会显示**「已加锁链内衬」**的提示文本。
+  - 锁链甲自身的提示文本会说明这一铁砧用法。
   - 护甲一旦加衬便无法再次加衬；内衬为永久效果，无法手动取下。
 
 - **内衬继承（工作台）**
@@ -83,10 +81,6 @@ This mod is an original creation by **Accidey**.
 
 - **合成配方**
   - 原版锁链甲部件现在可通过**锁链**合成获得。
-
-- **新进度**
-  - **「锁链内衬！」** —— 获得锁链甲。
-  - **「钢甲衬链」** —— 在铁砧上为护甲加装锁链内衬。
 
 - **配置选项**
   - 可配置各部位的护甲基础数值。

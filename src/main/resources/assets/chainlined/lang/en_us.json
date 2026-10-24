@@ -1,10 +1,7 @@
 {
+  "armoritem.chainmailed.chainmail_hint": "Anvil lining: place this in the right slot and the target armor in the left to add %s armor points; this piece is consumed",
   "armoritem.chainmailed.has_chainmailed": "Chainmailed",
   "armoritem.chainmailed.extra_armor": "Extra Armor +%s",
-  "advancements.chainlined.chainmail_set.title": "Chainmailed!",
-  "advancements.chainlined.chainmail_set.description": "Obtain chainmail armor.",
-  "advancements.chainlined.anvil_chainmail.title": "Lined in Steel",
-  "advancements.chainlined.anvil_chainmail.description": "Line an armor piece with chainmail on an anvil.",
   "commands.chainmailed.blacklist.added": "Added %s to the chainmail blacklist (saved to the config file, active immediately).",
   "commands.chainmailed.blacklist.removed": "Removed %s from the chainmail blacklist (saved to the config file, active immediately).",
   "commands.chainmailed.blacklist.present": "%s is already on the chainmail blacklist.",

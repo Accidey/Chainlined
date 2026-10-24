@@ -7,6 +7,7 @@ import java.util.List;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
@@ -22,9 +23,12 @@ public abstract class ArmorItemMixin extends Item implements IReinforcedChain {
     public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltip, TooltipFlag flag) {
         super.appendHoverText(stack, context, tooltip, flag);
         ArmorItem armor = (ArmorItem) (Object) this;
+        int bonus = ChainlinedEvents.armorForSlot(armor.getType().getSlot());
+        if (armor.getMaterial().is(ArmorMaterials.CHAIN)) {
+            tooltip.add(Component.translatable("armoritem.chainmailed.chainmail_hint", String.valueOf(bonus)).withStyle(ChatFormatting.GRAY));
+        }
         if (hasChainmailed(stack)) {
             tooltip.add(Component.translatable("armoritem.chainmailed.has_chainmailed").withStyle(ChatFormatting.GRAY));
-            int bonus = ChainlinedEvents.armorForSlot(armor.getType().getSlot());
             tooltip.add(Component.translatable("armoritem.chainmailed.extra_armor", String.valueOf(bonus)).withStyle(ChatFormatting.GRAY));
         }
     }

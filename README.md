@@ -16,7 +16,6 @@
 - **Chainmail Lining (Anvil)** — Put an armor piece in the left anvil slot and a chainmail piece for the same slot in the right slot, then take out the lined armor. The right-slot chainmail is consumed and a small amount of experience is paid.
 - **Lining Inheritance** — When a lined armor piece is used to craft an upgraded armor piece of the same slot on a crafting table, the lining is preserved on the result.
 - **Crafting Recipes** — Craft vanilla chainmail armor from chains.
-- **New Advancements** — "Chainmailed!" and "Lined in Steel".
 - **Configurable** — Per-slot armor values, the anvil experience cost and the lining blacklist are all configurable.
 - **In-Game Commands** — `/chainlined blacklist add|remove <item>`.
 
@@ -49,7 +48,6 @@
 - **锁链内衬（铁砧）** — 在铁砧左槽放入任意护甲、右槽放入同部位的锁链甲，即可取出加衬护甲。右槽锁链甲会被消耗，并支付少量经验。
 - **内衬继承** — 用加衬护甲在工作台合成同部位的升级护甲时，内衬会保留在合成结果上。
 - **合成配方** — 可使用锁链合成原版锁链甲。
-- **新进度** — 新增「锁链内衬！」与「钢甲衬链」进度。
 - **可配置** — 各部位护甲值、铁砧经验费用与内衬黑名单均可配置。
 - **游戏内指令** — `/chainlined blacklist add|remove <物品>`。
 
