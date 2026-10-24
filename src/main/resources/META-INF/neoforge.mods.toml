@@ -10,11 +10,11 @@ authors="${mod_authors}"
 description='''
 Give chainmail armor the rework it deserves. Put an armor piece in the left anvil slot and a
 chainmail piece for the same slot in the right, then take the lined armor out: the lined armor
-gains extra defense and Impact Resistance.
+gains extra defense.
 Crafting an upgraded armor from a lined piece keeps the lining.
 
 给锁链甲一次应得的重做。在铁砧左槽放入任意护甲、右槽放入同部位的锁链甲，即可取出加衬护甲：
-加衬的护甲获得额外防御与冲击抗性。
+加衬的护甲获得额外防御。
 用加衬护甲在工作台合成升级后的护甲，内衬会一并保留。
 '''
 
