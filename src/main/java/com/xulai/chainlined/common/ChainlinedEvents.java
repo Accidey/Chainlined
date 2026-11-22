@@ -4,7 +4,10 @@ import com.xulai.chainlined.Chainlined;
 import com.xulai.chainlined.ChainlinedConfig;
 import java.util.ArrayList;
 import java.util.List;
+import net.minecraft.core.component.DataComponents;
+import net.minecraft.network.chat.Component;
 import net.minecraft.resources.Identifier;
+import net.minecraft.util.StringUtil;
 import net.minecraft.world.Container;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.EquipmentSlotGroup;
@@ -52,8 +55,19 @@ public final class ChainlinedEvents {
         }
         ItemStack output = left.copy();
         ChainlinedHelper.storeChainmailed(output, right, event.getPlayer().level().registryAccess());
+        int cost = ChainlinedConfig.anvilExperienceCost;
+        String name = event.getName();
+        if (name != null && !StringUtil.isBlank(name)) {
+            if (!name.equals(left.getHoverName().getString())) {
+                output.set(DataComponents.CUSTOM_NAME, Component.literal(name));
+                cost++;
+            }
+        } else if (left.has(DataComponents.CUSTOM_NAME)) {
+            output.remove(DataComponents.CUSTOM_NAME);
+            cost++;
+        }
         event.setOutput(output);
-        event.setXpCost(ChainlinedConfig.anvilExperienceCost);
+        event.setXpCost(cost);
         event.setMaterialCost(1);
     }
 
